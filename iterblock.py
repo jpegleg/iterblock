@@ -489,6 +489,85 @@ res6666666669 = itertools.product('WXYZabcdefhgijklmnopqrstuvwxyzABCDEFGHIJKLMNO
 res7777777770 = itertools.product('XYZabcdefhgijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVW', repeat=12)
 res7777777771 = itertools.product('YZabcdefhgijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWX', repeat=12)
 
+res4a1	= itertools.product('bcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ123456789!@#$%^&*()_+,./;"{}|a', repeat=4)
+res4a2	= itertools.product('cdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ123456789!@#$%^&*()_+,./;"{}|bc', repeat=4)
+res4a3	= itertools.product('defghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ123456789!@#$%^&*()_+,./;"{}|abc', repeat=4)
+res4a4	= itertools.product('efghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ123456789!@#$%^&*()_+,./;"{}|abcd', repeat=4)
+res4a5	= itertools.product('fghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ123456789!@#$%^&*()_+,./;"{}|abcde', repeat=4)
+res4a6	= itertools.product('ghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ123456789!@#$%^&*()_+,./;"{}|abcdef', repeat=4)
+res4a7	= itertools.product('hijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ123456789!@#$%^&*()_+,./;"{}|abcdefg', repeat=4)
+res4a8	= itertools.product('ijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ123456789!@#$%^&*()_+,./;"{}|abcdefgh', repeat=4)
+res4a9	= itertools.product('jklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ123456789!@#$%^&*()_+,./;"{}|abcdefghi', repeat=4)
+res4a10	= itertools.product('klmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ123456789!@#$%^&*()_+,./;"{}|abcdefghij', repeat=4)
+res4a11	= itertools.product('lmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ123456789!@#$%^&*()_+,./;"{}|abcdefghijk', repeat=4)
+res4a12	= itertools.product('mnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ123456789!@#$%^&*()_+,./;"{}|abcdefghijkl', repeat=4)
+res4a13	= itertools.product('nopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ123456789!@#$%^&*()_+,./;"{}|abcdefghijklm', repeat=4)
+res4a14	= itertools.product('opqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ123456789!@#$%^&*()_+,./;"{}|abcdefghijklmn', repeat=4)
+res4a15	= itertools.product('pqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ123456789!@#$%^&*()_+,./;"{}|abcdefghijklmno', repeat=4)
+res4a16	= itertools.product('qrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ123456789!@#$%^&*()_+,./;"{}|abcdefghijklmnop', repeat=4)
+res4a17	= itertools.product('rstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ123456789!@#$%^&*()_+,./;"{}|abcdefghijklmnopq', repeat=4)
+res4a18	= itertools.product('stuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ123456789!@#$%^&*()_+,./;"{}|abcdefghijklmnopqr', repeat=4)
+res4a19	= itertools.product('tuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ123456789!@#$%^&*()_+,./;"{}|abcdefghijklmnopqrs', repeat=4)
+res4a20	= itertools.product('uvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ123456789!@#$%^&*()_+,./;"{}|abcdefghijklmnopqrst', repeat=4)
+res4a21	= itertools.product('vwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ123456789!@#$%^&*()_+,./;"{}|abcdefghijklmnopqrstu', repeat=4)
+res4a22	= itertools.product('xyzABCDEFGHIJKLMNOPQRSTUVWXYZ123456789!@#$%^&*()_+,./;"{}|abcdefghijklmnopqrstuvw', repeat=4)
+res4a23	= itertools.product('yzABCDEFGHIJKLMNOPQRSTUVWXYZ123456789!@#$%^&*()_+,./;"{}|abcdefghijklmnopqrstuvwx', repeat=4)
+res4a24	= itertools.product('zABCDEFGHIJKLMNOPQRSTUVWXYZ123456789!@#$%^&*()_+,./;"{}|abcdefghijklmnopqrstuvwxy', repeat=4)
+res4a25	= itertools.product('ABCDEFGHIJKLMNOPQRSTUVWXYZ123456789!@#$%^&*()_+,./;"{}|abcdefghijklmnopqrstuvwxyz', repeat=4)
+res4a26	= itertools.product('BCDEFGHIJKLMNOPQRSTUVWXYZ123456789!@#$%^&*()_+,./;"{}|abcdefghijklmnopqrstuvwxyzA', repeat=4)
+res4a27	= itertools.product('CDEFGHIJKLMNOPQRSTUVWXYZ123456789!@#$%^&*()_+,./;"{}|abcdefghijklmnopqrstuvwxyzAB', repeat=4)
+res4a28	= itertools.product('DEFGHIJKLMNOPQRSTUVWXYZ123456789!@#$%^&*()_+,./;"{}|abcdefghijklmnopqrstuvwxyzABC', repeat=4)
+res4a29	= itertools.product('EFGHIJKLMNOPQRSTUVWXYZ123456789!@#$%^&*()_+,./;"{}|abcdefghijklmnopqrstuvwxyzABCD', repeat=4)
+res4a30	= itertools.product('FGHIJKLMNOPQRSTUVWXYZ123456789!@#$%^&*()_+,./;"{}|abcdefghijklmnopqrstuvwxyzABCDE', repeat=4)
+res4a31	= itertools.product('GHIJKLMNOPQRSTUVWXYZ123456789!@#$%^&*()_+,./;"{}|abcdefghijklmnopqrstuvwxyzABCDEF', repeat=4)
+res4a32	= itertools.product('HIJKLMNOPQRSTUVWXYZ123456789!@#$%^&*()_+,./;"{}|abcdefghijklmnopqrstuvwxyzABCDEFG', repeat=4)
+res4a33	= itertools.product('IJKLMNOPQRSTUVWXYZ123456789!@#$%^&*()_+,./;"{}|abcdefghijklmnopqrstuvwxyzABCDEFGH', repeat=4)
+res4a34	= itertools.product('JKLMNOPQRSTUVWXYZ123456789!@#$%^&*()_+,./;"{}|abcdefghijklmnopqrstuvwxyzABCDEFGHI', repeat=4)
+res4a35	= itertools.product('KLMNOPQRSTUVWXYZ123456789!@#$%^&*()_+,./;"{}|abcdefghijklmnopqrstuvwxyzABCDEFGHIJ', repeat=4)
+res4a36	= itertools.product('LMNOPQRSTUVWXYZ123456789!@#$%^&*()_+,./;"{}|abcdefghijklmnopqrstuvwxyzABCDEFGHIJK', repeat=4)
+res4a37	= itertools.product('MNOPQRSTUVWXYZ123456789!@#$%^&*()_+,./;"{}|abcdefghijklmnopqrstuvwxyzABCDEFGHIJKL', repeat=4)
+res4a38	= itertools.product('NOPQRSTUVWXYZ123456789!@#$%^&*()_+,./;"{}|abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLM', repeat=4)
+res4a39	= itertools.product('OPQRSTUVWXYZ123456789!@#$%^&*()_+,./;"{}|abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMN', repeat=4)
+res4a40	= itertools.product('PQRSTUVWXYZ123456789!@#$%^&*()_+,./;"{}|abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNO', repeat=4)
+res4a41	= itertools.product('QRSTUVWXYZ123456789!@#$%^&*()_+,./;"{}|abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOP', repeat=4)
+res4a42	= itertools.product('RSTUVWXYZ123456789!@#$%^&*()_+,./;"{}|abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQ', repeat=4)
+res4a43	= itertools.product('STUVWXYZ123456789!@#$%^&*()_+,./;"{}|abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQR', repeat=4)
+res4a44	= itertools.product('TUVWXYZ123456789!@#$%^&*()_+,./;"{}|abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRS', repeat=4)
+res4a45	= itertools.product('UVWXYZ123456789!@#$%^&*()_+,./;"{}|abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRST', repeat=4)
+res4a46	= itertools.product('VWXYZ123456789!@#$%^&*()_+,./;"{}|abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTU', repeat=4)
+res4a47	= itertools.product('WXYZ123456789!@#$%^&*()_+,./;"{}|abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUV', repeat=4)
+res4a48	= itertools.product('XYZ123456789!@#$%^&*()_+,./;"{}|abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVW', repeat=4)
+res4a49	= itertools.product('YZ123456789!@#$%^&*()_+,./;"{}|abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWX', repeat=4)
+res4a50	= itertools.product('Z123456789!@#$%^&*()_+,./;"{}|abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXY', repeat=4)
+res4a51	= itertools.product('123456789!@#$%^&*()_+,./;"{}|abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ', repeat=4)
+res4a52	= itertools.product('23456789!@#$%^&*()_+,./;"{}|abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1', repeat=4)
+res4a53	= itertools.product('3456789!@#$%^&*()_+,./;"{}|abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ12', repeat=4)
+res4a54	= itertools.product('456789!@#$%^&*()_+,./;"{}|abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ123', repeat=4)
+res4a55	= itertools.product('56789!@#$%^&*()_+,./;"{}|abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234', repeat=4)
+res4a56	= itertools.product('6789!@#$%^&*()_+,./;"{}|abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ12345', repeat=4)
+res4a57	= itertools.product('789!@#$%^&*()_+,./;"{}|abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ123456', repeat=4)
+res4a58	= itertools.product('89!@#$%^&*()_+,./;"{}|abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567', repeat=4)
+res4a59	= itertools.product('9!@#$%^&*()_+,./;"{}|abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ12345678', repeat=4)
+res4a60	= itertools.product('!@#$%^&*()_+,./;"{}|abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ123456789', repeat=4)
+res4a61	= itertools.product('@#$%^&*()_+,./;"{}|abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ123456789!', repeat=4)
+res4a62	= itertools.product('#$%^&*()_+,./;"{}|abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ123456789!@', repeat=4)
+res4a63	= itertools.product('$%^&*()_+,./;"{}|abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ123456789!@#', repeat=4)
+res4a64	= itertools.product('%^&*()_+,./;"{}|abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ123456789!@#$', repeat=4)
+res4a65	= itertools.product('^&*()_+,./;"{}|abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ123456789!@#$%', repeat=4)
+res4a66	= itertools.product('&*()_+,./;"{}|abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ123456789!@#$%^', repeat=4)
+res4a67	= itertools.product('*()_+,./;"{}|abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ123456789!@#$%^&', repeat=4)
+res4a68	= itertools.product('()_+,./;"{}|abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ123456789!@#$%^&*', repeat=4)
+res4a69	= itertools.product(')_+,./;"{}|abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ123456789!@#$%^&*(', repeat=4)
+res4a70	= itertools.product('_+,./;"{}|abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ123456789!@#$%^&*()', repeat=4)
+res4a71	= itertools.product('+,./;"{}|abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ123456789!@#$%^&*()+', repeat=4)
+res4a72	= itertools.product(',./;"{}|abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ123456789!@#$%^&*()_+', repeat=4)
+res4a73	= itertools.product('./;"{}|abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ123456789!@#$%^&*()_+,', repeat=4)
+res4a74	= itertools.product('/;"{}|abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ123456789!@#$%^&*()_+,.', repeat=4)
+res4a75	= itertools.product(';"{}|abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ123456789!@#$%^&*()_+,./', repeat=4)
+res4a76	= itertools.product('"{}|abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ123456789!@#$%^&*()_+,./;', repeat=4)
+res4a77	= itertools.product('{}|abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ123456789!@#$%^&*()_+,./;"', repeat=4)
+res4a78	= itertools.product('}|abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ123456789!@#$%^&*()_+,./;"{', repeat=4)
+res4a79	= itertools.product('|abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ123456789!@#$%^&*()_+,./;"{}', repeat=4)
 res4b1	= itertools.product('bcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ123456789!@#$%^&*()_+,./;"{}|a', repeat=5)
 res4b2	= itertools.product('cdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ123456789!@#$%^&*()_+,./;"{}|bc', repeat=5)
 res4b3	= itertools.product('defghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ123456789!@#$%^&*()_+,./;"{}|abc', repeat=5)
@@ -1122,6 +1201,243 @@ res4i77	= itertools.product('{}|abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUV
 res4i78	= itertools.product('}|abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ123456789!@#$%^&*()_+,./;"{', repeat=12)
 res4i79	= itertools.product('|abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ123456789!@#$%^&*()_+,./;"{}', repeat=12)
 
+def gen4a10():
+    for i in res4a10: 
+        print ''.join(i)
+def gen4a11():
+    for i in res4a11: 
+        print ''.join(i)
+def gen4a12():
+    for i in res4a12: 
+        print ''.join(i)
+def gen4a13():
+    for i in res4a13: 
+        print ''.join(i)
+def gen4a14():
+    for i in res4a14: 
+        print ''.join(i)
+def gen4a15():
+    for i in res4a15: 
+        print ''.join(i)
+def gen4a16():
+    for i in res4a16: 
+        print ''.join(i)
+def gen4a17():
+    for i in res4a17: 
+        print ''.join(i)
+def gen4a18():
+    for i in res4a18: 
+        print ''.join(i)
+def gen4a19():
+    for i in res4a19: 
+        print ''.join(i)
+def gen4a1():
+    for i in res4a1: 
+        print ''.join(i)
+def gen4a20():
+    for i in res4a20: 
+        print ''.join(i)
+def gen4a21():
+    for i in res4a21: 
+        print ''.join(i)
+def gen4a22():
+    for i in res4a22: 
+        print ''.join(i)
+def gen4a23():
+    for i in res4a23: 
+        print ''.join(i)
+def gen4a24():
+    for i in res4a24: 
+        print ''.join(i)
+def gen4a25():
+    for i in res4a25: 
+        print ''.join(i)
+def gen4a26():
+    for i in res4a26: 
+        print ''.join(i)
+def gen4a27():
+    for i in res4a27: 
+        print ''.join(i)
+def gen4a28():
+    for i in res4a28: 
+        print ''.join(i)
+def gen4a29():
+    for i in res4a29: 
+        print ''.join(i)
+def gen4a2():
+    for i in res4a2: 
+        print ''.join(i)
+def gen4a30():
+    for i in res4a30: 
+        print ''.join(i)
+def gen4a31():
+    for i in res4a31: 
+        print ''.join(i)
+def gen4a32():
+    for i in res4a32: 
+        print ''.join(i)
+def gen4a33():
+    for i in res4a33: 
+        print ''.join(i)
+def gen4a34():
+    for i in res4a34: 
+        print ''.join(i)
+def gen4a35():
+    for i in res4a35: 
+        print ''.join(i)
+def gen4a36():
+    for i in res4a36: 
+        print ''.join(i)
+def gen4a37():
+    for i in res4a37: 
+        print ''.join(i)
+def gen4a38():
+    for i in res4a38: 
+        print ''.join(i)
+def gen4a39():
+    for i in res4a39: 
+        print ''.join(i)
+def gen4a3():
+    for i in res4a3: 
+        print ''.join(i)
+def gen4a40():
+    for i in res4a40: 
+        print ''.join(i)
+def gen4a41():
+    for i in res4a41: 
+        print ''.join(i)
+def gen4a42():
+    for i in res4a42: 
+        print ''.join(i)
+def gen4a43():
+    for i in res4a43: 
+        print ''.join(i)
+def gen4a44():
+    for i in res4a44: 
+        print ''.join(i)
+def gen4a45():
+    for i in res4a45: 
+        print ''.join(i)
+def gen4a46():
+    for i in res4a46: 
+        print ''.join(i)
+def gen4a47():
+    for i in res4a47: 
+        print ''.join(i)
+def gen4a48():
+    for i in res4a48: 
+        print ''.join(i)
+def gen4a49():
+    for i in res4a49: 
+        print ''.join(i)
+def gen4a4():
+    for i in res4a4: 
+        print ''.join(i)
+def gen4a50():
+    for i in res4a50: 
+        print ''.join(i)
+def gen4a51():
+    for i in res4a51: 
+        print ''.join(i)
+def gen4a52():
+    for i in res4a52: 
+        print ''.join(i)
+def gen4a53():
+    for i in res4a53: 
+        print ''.join(i)
+def gen4a54():
+    for i in res4a54: 
+        print ''.join(i)
+def gen4a55():
+    for i in res4a55: 
+        print ''.join(i)
+def gen4a56():
+    for i in res4a56: 
+        print ''.join(i)
+def gen4a57():
+    for i in res4a57: 
+        print ''.join(i)
+def gen4a58():
+    for i in res4a58: 
+        print ''.join(i)
+def gen4a59():
+    for i in res4a59: 
+        print ''.join(i)
+def gen4a5():
+    for i in res4a5: 
+        print ''.join(i)
+def gen4a60():
+    for i in res4a60: 
+        print ''.join(i)
+def gen4a61():
+    for i in res4a61: 
+        print ''.join(i)
+def gen4a62():
+    for i in res4a62: 
+        print ''.join(i)
+def gen4a63():
+    for i in res4a63: 
+        print ''.join(i)
+def gen4a64():
+    for i in res4a64: 
+        print ''.join(i)
+def gen4a65():
+    for i in res4a65: 
+        print ''.join(i)
+def gen4a66():
+    for i in res4a66: 
+        print ''.join(i)
+def gen4a67():
+    for i in res4a67: 
+        print ''.join(i)
+def gen4a68():
+    for i in res4a68: 
+        print ''.join(i)
+def gen4a69():
+    for i in res4a69: 
+        print ''.join(i)
+def gen4a6():
+    for i in res4a6: 
+        print ''.join(i)
+def gen4a70():
+    for i in res4a70: 
+        print ''.join(i)
+def gen4a71():
+    for i in res4a71: 
+        print ''.join(i)
+def gen4a72():
+    for i in res4a72: 
+        print ''.join(i)
+def gen4a73():
+    for i in res4a73: 
+        print ''.join(i)
+def gen4a74():
+    for i in res4a74: 
+        print ''.join(i)
+def gen4a75():
+    for i in res4a75: 
+        print ''.join(i)
+def gen4a76():
+    for i in res4a76: 
+        print ''.join(i)
+def gen4a77():
+    for i in res4a77: 
+        print ''.join(i)
+def gen4a78():
+    for i in res4a78: 
+        print ''.join(i)
+def gen4a79():
+    for i in res4a79: 
+        print ''.join(i)
+def gen4a7():
+    for i in res4a7: 
+        print ''.join(i)
+def gen4a8():
+    for i in res4a8: 
+        print ''.join(i)
+def gen4a9():
+    for i in res4a9: 
+        print ''.join(i)
 def gen4():
     for i in res4: 
         print ''.join(i)
