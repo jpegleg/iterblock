@@ -1,0 +1,57 @@
+#!/bin/bash
+###########
+############
+#############          I T E R B L O C K	C O N T R O L
+##############
+###############
+######################################################### Set up iterblocks with 2 gig blocks per core, leaving one core open.
+
+echo "Starting iterblock."
+echo "Running iterblock on $(uname -a)"
+echo "Checking for CPUs..."
+cores=$(cat /proc/cpuinfo | grep processor | wc -l)
+echo "Found $cores cores."
+pwd=$(pwd -P | cut -d'/' -f2)
+disks=$(df -h | grep $pwd)
+disksb=$(df | grep $pwd)
+echo "Working in /$pwd partition."
+echo "Details of partition: $disks"
+percentd=$(echo $disks | grep -oP "(\d)(\d)%")
+percentdb=$(echo $disksb | awk '{print $5}')
+
+echo "Percentage of partition used is $percentd"
+free=$(echo $disks | awk '{print $4}')
+freeb=$(echo $disksb | awk '{print $4}')
+
+echo "Free space on $pwd is $free."
+freeval=$(echo $free | sed 's/[a-Z]//g')
+
+childspace=$(cat /proc/cpuinfo | grep -i processor | wc -l)
+
+echo "Allocating up to $diskchild per child process..."
+
+x=1
+while [[ $x < $childspace ]]; do
+	echo spawnchild"$x"
+	cp ./iterblock.py ./iterblock."$x".py
+	echo "Type the block generation starting point then press enter."
+	echo "Examples: gen4i67 gen10 gen4c1 ... you can read more of them in iterblock.py. The function determines the start position of the block and the number of characters."
+	read funcl
+
+	echo "Okay, using $funcl"
+	echo "$funcl()"  >> ./iterblock."$x".py
+	child=iterblock."$x".py
+	chmod +x $child
+	childlog=$child.log
+	size=$((2000*1024*1024-$(stat -c %s $childlog)))
+	./$child | head -c ${size} > $childlog &
+	echo "$!" > child.$x.pid
+	echo "Child $x spawned."
+	x=$((x + 1))
+	if [[ $x < 8 ]]; then
+		echo "Do we spawn child $x?"
+	else 
+		echo "Max children (8) spawned"
+		x=$childspace
+	fi
+done
