@@ -1,6 +1,26 @@
 #!/usr/bin/python
 #################
-
+#
+#   This is a code snippet ( something I do often with python ) that contains itertools product functions
+#   using several sets of characters. Standard characters not yet included in this set are []`~
+#   The point of shifting the character set start positions is so you can execute child processes that
+#   write fixed block sizes based on disk space, use the block, then move on to another starting position
+#   so you can chunk you way through the entire set, even if you don't have the disk space for the whole set.
+#   If you have the disk space, you would use
+#gen4()
+#gen5()
+#gen6()
+#gen7()
+#gen8()
+#gen9()
+#gen10()
+#gen11()
+#gen12()
+#
+#   to generate all combinations of the characters for 4,5,6,7,8,9,10,11, and 12 character length strings.
+#
+#
+#################
 import itertools
 
 res4 = itertools.product('abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ123456789!@#$%^&*()_+,./;"{}|', repeat=4)
