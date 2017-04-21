@@ -7,6 +7,7 @@
 #   write fixed block sizes based on disk space, use the block, then move on to another starting position
 #   so you can chunk you way through the entire set, even if you don't have the disk space for the whole set.
 #   If you have the disk space, you would use
+#
 #gen4()
 #gen5()
 #gen6()
@@ -17,7 +18,8 @@
 #gen11()
 #gen12()
 #
-#   to generate all combinations of the characters for 4,5,6,7,8,9,10,11, and 12 character length strings.
+#   to generate all combinations of the characters 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLM
+#   NOPQRSTUVWXYZ123456789!@#$%^&*()_+,./;"{}|' for 4,5,6,7,8,9,10,11, and 12 character length strings.
 #
 #
 #################
