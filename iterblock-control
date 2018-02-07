@@ -43,6 +43,7 @@ while [[ $x < $childspace ]]; do
 	child=iterblock."$x".py
 	chmod +x $child
 	childlog=$child.log
+	touch $child.log 2>/dev/null
 	size=$((2000*1024*1024-$(stat -c %s $childlog)))
 	./$child | head -c ${size} > $childlog &
 	echo "$!" > child.$x.pid
