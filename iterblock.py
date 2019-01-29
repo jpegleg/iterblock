@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/user/bin/env python
 #################
 #
 #   This is a code snippet ( something I do often with python ) that contains itertools product functions
