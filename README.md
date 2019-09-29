@@ -1,7 +1,7 @@
 # This program is a WIP and is just a demo. It is also a program written by another program :)
 
 # iterblock
-generate blocks of strings for password dictionaries
+generate blocks of strings for password dictionaries (all possible english words and beyond, up to 12 characters)
 
 # Set the executable bit
 chmod +x iterblock-control
