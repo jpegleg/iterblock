@@ -1,4 +1,4 @@
-# This program is a WIP and is just a demo.
+# This program is a WIP and is just a demo. It is also a program written by another program :)
 
 # iterblock
 generate blocks of strings for password dictionaries
