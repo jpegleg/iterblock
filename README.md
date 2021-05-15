@@ -1,3 +1,6 @@
+# See https://github.com/jpegleg/iterblock2 
+
+
 # This program is a python2 scrap and is just a demo. It is also a program written by another program :)
 # Most of the time you would just want to use the program 'crunch' instead of this
 # as that program is faster and better...
